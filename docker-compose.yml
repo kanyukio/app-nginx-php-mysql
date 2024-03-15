@@ -24,7 +24,6 @@ services:
       - ".env"
     environment:
       - TEST_DB_HOST=${MYSQL_HOST}
-
       - TEST_DB_NAME=${MYSQL_DATABASE}
       - TEST_DB_USER=${MYSQL_ROOT_USER}
       - TEST_DB_PASSWORD=${MYSQL_PASSWORD}
